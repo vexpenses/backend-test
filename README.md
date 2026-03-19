@@ -1,66 +1,66 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Backend Test Project (Laravel)
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Introdução
 
-## About Laravel
+Este é um projeto de um **SaaS de Pagamentos** onde empresas são clientes da plataforma e gerenciam recursos financeiros para seus colaboradores.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Neste sistema:
+- **Empresas** se cadastram como clientes da plataforma e provisionam recursos financeiros
+- **Colaboradores** são usuários vinculados às empresas que possuem contas e cartões
+- Os colaboradores utilizam a solução para realizar pagamentos através de suas contas e cartões
+- A plataforma se integra com um serviço bancário externo para gerenciar contas e cartões
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Sobre o Teste
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Este projeto foi criado para avaliar suas habilidades de análise de código, identificação de problemas e senso crítico em relação a qualidade de software.
 
-## Learning Laravel
+## Instruções para o Candidato
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### Objetivo
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Você deve analisar este repositório em busca de **inconsistências, bugs, vulnerabilidades de segurança e problemas de qualidade de código**. Após a análise, prepare um relatório detalhado com suas descobertas.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### O que deve conter no relatório:
 
-## Laravel Sponsors
+Para cada problema identificado, você deve documentar:
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+1. **O que foi encontrado**: Descrição clara do problema
+2. **Localização**: Arquivo e linha(s) de código onde o problema está
+3. **Por que isso é um problema**: Explique o impacto, riscos e consequências
+4. **Como resolver**: Sua proposta de solução para corrigir o problema
+5. **Severidade**: Classifique como Crítica, Alta, Média ou Baixa
 
-### Premium Partners
+### 🎁 Bônus (Opcional)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+Além de identificar problemas, **liste no relatório** melhorias gerais que você sugere para que este projeto se torne mais robusto, escalável e alinhado com as melhores práticas.
 
-## Contributing
+**Importante**: Não precisa implementar nada, apenas **descrever as sugestões de melhoria** no relatório.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+**Esta seção demonstra sua visão técnica e capacidade de pensar além da correção de bugs!**
 
-## Code of Conduct
+### Regras Importantes
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+⚠️ **NÃO faça fork deste repositório**
 
-## Security Vulnerabilities
+⚠️ **NÃO envie pull requests**
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+⚠️ **RECOMENDAMOS focar no Code Review, não há obrigação de rodar o projeto**
 
-## License
+✅ **Você PODE clonar o repositório localmente para análise**
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### Formato do Relatório
+
+Você pode entregar o relatório no formato que preferir:
+- Documento Markdown (.md)
+- PDF
+- Google Docs
+
+O importante é que seja claro, organizado e demonstre seu raciocínio técnico.
+
+### Entrega
+
+Envie seu relatório por e-mail conforme instruções recebidas no processo seletivo.
+
+---
+
+**Boa sorte! 🚀**
