@@ -1,0 +1,28 @@
+# Descritor do catálogo de software (Backstage). Este arquivo é do time.
+# Padrão: Confluence > Squad SRE > "Padrão catalog-info.yaml (Backstage)".
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backend-test
+  title: "Teste técnico de backend (Laravel)"
+  description: "Projeto de avaliação técnica de candidatos a backend em PHP/Laravel"
+  tags:
+    - php
+    - laravel
+  annotations:
+    github.com/project-slug: vexpenses/backend-test
+    vexpenses.com/tier: "3"
+    vexpenses.com/tribe: cross  # viagens, pagamentos, despesas ou cross
+    vexpenses.com/compliance: none  # lgpd, pci, pii, kyc-kyb separados por vírgula, ou none
+  links:
+    - type: docs
+      title: README
+      url: https://github.com/vexpenses/backend-test#readme
+    - type: chat
+      title: ~squad-sre-public
+      url: https://eae.vexpens.es/dev/channels/squad-sre-public
+spec:
+  type: service  # service, website, library, lambda, terraform-project, terraform-module ou script
+  lifecycle: production
+  owner: group:default/engenharia
+  system: system:default/recrutamento
